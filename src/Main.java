@@ -1026,16 +1026,16 @@ public class Main {
 
         SortAlgorithms sortAlgorithms = new SortAlgorithms();
 
-        sortAlgorithms.bubbleSort(values);
-        sortAlgorithms.quickSort(values);
-        sortAlgorithms.mergeSort(values);
+        sortAlgorithms.bubbleSort(values.clone());
+        sortAlgorithms.quickSort(values.clone());
+        sortAlgorithms.mergeSort(values.clone());
         System.out.println("-------------------------------------------------");
-        sortAlgorithms.bubbleSort(values1);
-        sortAlgorithms.quickSort(values1);
-        sortAlgorithms.mergeSort(values1);
+        sortAlgorithms.bubbleSort(values1.clone());
+        sortAlgorithms.quickSort(values1.clone());
+        sortAlgorithms.mergeSort(values1.clone());
         System.out.println("-------------------------------------------------");
-        sortAlgorithms.bubbleSort(values2);
-        sortAlgorithms.quickSort(values2);
-        sortAlgorithms.mergeSort(values2);
+        sortAlgorithms.bubbleSort(values2.clone());
+        sortAlgorithms.quickSort(values2.clone());
+        sortAlgorithms.mergeSort(values2.clone());
     }
 }
