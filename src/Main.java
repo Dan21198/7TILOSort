@@ -1022,7 +1022,7 @@ public class Main {
                 //</editor-fold>
         };
 
-        String[] values2 = {"2","4","0","2","4"};
+        String[] values2 = {"P","2","4","0","2","4"};
 
         SortAlgorithms sortAlgorithms = new SortAlgorithms();
 
